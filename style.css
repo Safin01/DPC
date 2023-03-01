@@ -14,11 +14,13 @@ html{
     padding: 10px;
     background-color: rgb(11, 181, 233);
     border-bottom: 2px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 .navElement{
     display: flex;
     flex-wrap: wrap;
-
     gap: 15px;
     justify-content: right;
     padding: 10px;
@@ -32,6 +34,7 @@ html{
     text-decoration: none;
     color: black;
     font-size: 17px;
+    margin-left: 20px;
 }
 .navbar ul li a:hover{
     color: white;
@@ -52,7 +55,7 @@ html{
     flex-direction: row;
     background-image: url(./images/cloud.jpg);
     background-size: cover;
-    height: 550px;
+    height: 100vh;
 }
 
 #greetings{
@@ -61,3 +64,42 @@ html{
     align-self: center;
     padding-left: 50px;
 }
+/* Home Section*/
+
+/*About Section*/
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/dark.gif);
+    background-size: cover;
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+    height: 100vh;
+}
+
+#motto{
+    font-size: 45px;
+}
+.motto{  
+    align-self: center;
+}
+/*About Section*/
+
+/*Resource Section*/
+
+#resource{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 222, 245);
+    height: 100vh;
+}
+
+.resource-description p{
+    font-size: 30px;
+    padding: 25px;
+}
+/*Resource Section*/
